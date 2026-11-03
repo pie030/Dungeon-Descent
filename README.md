@@ -1,16 +1,36 @@
 # Dungeon Descent
 
-**A dungeon-crawler prototype developed in C using the Windows API.**
+**A dungeon-crawler prototype developed in C with the Windows API — no game engine.**
 
-Dungeon Descent is an independent game-development project built with **C, Win32 API, and GDI**. I created it to experiment with game logic, real-time input, 2D rendering, combat, and progression without using a game engine.
+Dungeon Descent is a personal game-development experiment built with **C, Win32 API, and GDI**. I created it to explore native rendering, real-time input, combat, character classes, and progression through a playable Windows application.
 
-This is an **early prototype**, not a finished game. Some features are incomplete, and the Knight's attributes were deliberately increased for a live demonstration; they do not represent final game balance.
+This is an **early prototype**, not a finished game. Some features are incomplete, and the Knight's attributes were deliberately increased for a live demonstration; they do not represent the final balance.
+
+## Screenshots
+
+### 01 / Character selection
+
+![Dungeon Descent — class selection menu featuring Knight, Alchemist, and Archer](./assets/character-selection.png)
+
+*Choose between three character classes and access the progression menu.*
+
+### 02 / Title screen
+
+![Dungeon Descent — opening title screen](./assets/title-screen.png)
+
+*The opening screen of the original prototype.*
+
+### 03 / Early gameplay
+
+![Dungeon Descent — experimental gameplay with character sprites and health interface](./assets/early-gameplay.png)
+
+*An early gameplay scene. Visuals and mechanics are still experimental.*
 
 ## Download
 
-[**Dungeon Descent — Windows x64 (prototype)**](https://github.com/pie030/Dungeon-Descent/releases/tag/v0.1.0-demo)
+[**Dungeon Descent — Prototype v0.1 (Windows x64)**](https://github.com/pie030/Dungeon-Descent/releases/tag/v0.1.0-demo)
 
-Download the `Dungeon-Descent.exe` file from the release page. It is intended for **Windows 64-bit**. The executable has been tested by its author on Windows, but compatibility with a clean Windows installation has not been independently verified. The executable is not digitally signed.
+Download `Dungeon-Descent.exe` from the release page. The author has tested the executable on Windows, but compatibility with a clean Windows installation has not been independently verified. The executable is not digitally signed.
 
 ## Controls
 
@@ -23,10 +43,11 @@ Download the `Dungeon-Descent.exe` file from the release page. It is intended fo
 
 ## Technical notes
 
-- Native Windows application, written in C.
-- Interface and visuals drawn using the Win32 API / GDI.
-- Includes experimental systems for combat, progression, menus, abilities, and saving.
-- **Prototype status:** unfinished mechanics and potential bugs are expected.
-- **Source code is not published at this stage.**
+- **Language:** C
+- **Platform:** Windows x64
+- **Rendering and window management:** Win32 API / GDI
+- **Systems:** menus, combat, progression, abilities, and saving (prototype implementations)
+- **Status:** experimental; unfinished features and bugs may remain
+- **Source code:** not publicly available at this stage
 
-This page documents the original project as it stands, without presenting it as a finished commercial release.
+The screenshots above are from the actual executable. This repository preserves the project as a playable prototype rather than presenting it as a finished release.
