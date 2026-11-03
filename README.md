@@ -10,7 +10,7 @@ This is an **early prototype**, not a finished game. Some features are incomplet
 
 [**Dungeon Descent — Windows x64 (prototype)**](https://github.com/pie030/Dungeon-Descent/releases/tag/v0.1.0-demo)
 
-Download the `Dungeon-Descent.exe` file from the release page. It is intended for **Windows 64-bit**. The executable has not yet been tested on a clean Windows installation and is not digitally signed.
+Download the `Dungeon-Descent.exe` file from the release page. It is intended for **Windows 64-bit**. The executable has been tested by its author on Windows, but compatibility with a clean Windows installation has not been independently verified. The executable is not digitally signed.
 
 ## Controls
 
